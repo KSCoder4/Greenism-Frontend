@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    padding: 5px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 24px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to center,  rgb(255, 255, 255), rgb(200, 214, 200) );
+    padding: 14px;
+}
+
+.sign-container {
+    width: 300px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+label {
+    margin-bottom: 7px;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #9cb609;
+}
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .error {
+    border-color: red;
+    border-style:solid;
+  }

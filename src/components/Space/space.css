@@ -1,0 +1,127 @@
+.space-distance {
+    font-size: 24px;
+}
+
+#space-wrapper {
+    position: relative;
+    width: 100%;
+  }
+
+  #side-box {
+    position: fixed;
+    top: 60%; 
+    transform: translateY(-50%);
+    right: 0;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 150px; 
+    z-index: 1; 
+  }
+
+
+#side-box h2 {
+    margin-bottom: 10px;
+}
+
+#side-box span {
+    font-size: 1.5em;
+    display: block;
+}
+
+#space-container {
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#space-container > div {
+    position: relative;
+    justify-content: center;
+}
+
+#space-container > div h2.top {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 10px);
+    top: 10px;
+    text-align: center;
+}
+
+#space-container > div h2.bottom {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    bottom: 20px;
+    text-align: center;
+}
+
+#space-container > div h5.bottom {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    bottom: 55px;
+    text-align: center;
+}
+
+#space-container > div p {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+#space {
+    background: url('https://img.freepik.com/premium-vector/space-background-with-stars-vector-illustration_97886-319.jpg') center/cover; 
+    height: 150vh;
+}
+
+#moon {
+    background: url('https://img.freepik.com/premium-vector/space-background-with-stars-vector-illustration_97886-319.jpg') center/cover; 
+    height: 200vh;
+}
+
+#exoSphere {
+    border-bottom-style:dotted;
+    background: url('https://img.freepik.com/premium-vector/space-background-with-stars-vector-illustration_97886-319.jpg') center/cover;
+    height: 200vh;
+  border-color:white;
+  border-top-style:groove;
+    
+}
+
+#thermoSphere1 {
+    background: url('https://img.freepik.com/premium-vector/space-background-with-stars-vector-illustration_97886-319.jpg') center/cover;
+    height: 120vh;
+
+}
+#thermoSphere2 {
+    background: linear-gradient(black, #040111);
+    height: 20vh;
+    border-top-style: groove;
+    color: white;
+    border-color:white;
+}
+
+#mesoSphere {
+    background: linear-gradient(#040111,#030f77);
+    height: 60vh;
+  border-top-style:dotted;
+    border-color:white;
+}
+
+#stratoSphere {
+    background: linear-gradient(#030f77, #042bda, #004FF9);
+    height: 80vh;
+  border-top-style:dotted;
+}
+
+#tropoSphere {
+    background: linear-gradient(#004FF9, lightblue);
+    height: 50vh;
+    border-top-style:dotted;
+}
+
+#groundLevel {
+    background: linear-gradient(#ace721, green);
+    height: 40vh;
+}

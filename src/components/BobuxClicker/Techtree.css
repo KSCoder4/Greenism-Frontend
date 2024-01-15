@@ -1,0 +1,46 @@
+
+#techtree-container {
+	position: fixed;
+	
+	background: white;
+	color: black;
+
+	width: 90vw;
+	height: 80vh;
+
+	overflow: scroll;
+
+	left: 5vw;
+	right: 10vh;
+}
+
+#techtree-svg {
+	width: 100vw;
+
+	aspect-ratio: 1/1;
+}
+
+.node {
+	transition: fill 500ms, r 1s;
+}
+
+line {
+	transition: stroke 500ms;
+}
+
+.node:hover {
+	fill: yellow;
+	/*r: 3px;*/
+
+	cursor: pointer;
+}
+
+text {
+	font: 0.7px sans-serif;
+	text-anchor: middle;
+  fill: white;
+
+	paint-order: stroke;
+  stroke: #000000;
+  stroke-width: 0.1px;
+}

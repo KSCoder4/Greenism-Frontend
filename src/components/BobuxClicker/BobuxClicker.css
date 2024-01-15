@@ -1,0 +1,208 @@
+#bobux-title {
+    text-align: center;
+    color: #7CFC00;
+    font-size: 44px;
+    text-shadow: 1px 1px 2px lightgreen, 0 0 25px green, -1px -1px 5px darkgreen;
+  }
+  
+  .bobux-h2 {
+    color: #61c200;
+    text-shadow: 1px 1px 2px lightgreen, 0 0 25px green, -1px -1px 5px darkgreen;
+  }
+  
+  #bobux-bobuximg {
+    height: 144px;
+    width: auto;
+  }
+  
+  #bobux-bigbutton {
+  
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  
+    font-size: 24px;
+    margin: 5px;
+  
+    transition: background 1s, transform 1s;
+    transition-duration: 0.4s;
+  
+    cursor: pointer;
+  
+    background: black;
+    color: white;
+  
+    border: 2px solid #4CAF50;
+    padding: 40px;
+  }
+  
+  #bobux-funcanvas {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    width: 100vw;
+    height: 100vh;
+  
+    pointer-events: none;
+  
+    transform: rotateY(0deg);
+  }
+  
+  .bobux-button {
+    background: black;
+    color: white;
+  
+    border-radius: 20px;
+    border: 2px solid green;
+  
+    padding: 20px;
+    margin: 5px;
+    transition: background 0.2s;
+    font-size: 16px;
+  
+    cursor: pointer;
+  
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+
+  .bobux-button[data-active="true"] {
+    background: green;
+  } 
+  
+  #bobux-artifacts {
+      background: grey;
+  
+      min-height: 40px;
+      
+      padding: 10px;
+      margin: 20px;
+      
+      display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+  }
+  
+  #bobux-artifacts > img {
+      background: white;
+  
+      width: 100%;
+      height: 100%;
+  
+      aspect-ratio: 1/1;
+  }
+  
+  .bobux-button[data-buyable="true"]:hover,
+  .bobux-button:hover {
+    background: lime;
+  }
+  
+  .bobux-button[data-buyable="false"]:hover {
+    background: red;
+  }
+  
+  #bobux-bigbutton:hover {
+    background-image: linear-gradient(to right, lime, forestgreen);
+  }
+  
+  #bobux-bigbutton:active {
+    transform: scale(1.5);
+  }
+  
+  #bobux-body {
+    background-color: black;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  
+      color: #61c200;
+  
+      padding: 0px;
+      margin: 0px;
+  }
+  
+  .bobux-section, #bobux-footer {
+    border: 2px double green;
+    font-size: 20px;
+  
+    margin: auto;
+    margin-bottom: 2px;
+    margin-top: 2px;
+  
+    width: min(100%, 1000px);
+  }
+  
+  #bobux-options {
+    background-color: black;
+    border-radius: 44px;
+    box-shadow: 3px 3px 4px #dfd811;
+  }
+  
+  #bobux-options div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  
+      flex-wrap: wrap;
+  
+      flex-grow: 1;
+  }
+  
+  .bobux-irregular {
+    background: gold;
+    color: darkslategray;
+    border-radius: 16px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 5px;
+    transition: background 0.2s;
+    font-size: 22px;
+    cursor: pointer;
+      font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+  
+  .bobux-irregular:hover {
+    color: gold;
+    text-shadow: lightgoldenrodyellow;
+    background-color: coral;
+  }
+  
+  ::backdrop {
+    background: rgba(212, 175, 55, 0.5);
+  }
+  
+  .bobux-progress {
+    border-radius: 7px;
+    width: 80%;
+  }
+  
+  .bobux-progress::-webkit-progress-bar,
+  .bobux-progress {
+    background-color: white;
+    border-radius: 7px;
+  }
+  
+  .bobux-progress::-webkit-progress-value {
+    background-color: green;
+    border-radius: 7px;
+    box-shadow: 2px 2px 6px 8px rgba(0, 255, 0, 0.8);
+  }
+  
+  .bobux-progress::-moz-progress-bar {
+    background-color: green;
+    border-radius: 7px;
+    box-shadow: 2px 2px 6px 6px rgba(0, 255, 0, 0.8);
+  }
+  
+  #bobux-shop {
+    color: #7CFC00;
+    text-align: center;
+  }
+  
+  #bobux-main {
+    color: #7CFC00;
+    text-align: center;
+  }
+  
+  #bobux-stats {
+    color: #7CFC00;
+    text-align: center;
+  }
